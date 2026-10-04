@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #adf0d3;
+  color: #011f12;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  padding: 25px;
+}
+
+.phone {
+  background-color: #d7f5e6;
+  width: 375px;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  position: relative;
+  min-height: auto;
+}
+
+.header-name {
+  color: #011f12;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-name h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.offline-badge {
+  background-color: #e53935;
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 6px;
+}
+
+.trend-bar {
+  width: 30%;
+  background-color: #6b917c;
+  height: 4px;
+  border-radius: 5px;
+  margin: 4px 0;
+}
+
+.trend-bar.filled {
+  background-color: rgb(4, 36, 4);
+}
+
+.what {
+  font-size: large;
+}
+
+.what span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #4a5a52;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.select {
+  width: 100%;
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b0c9bb;
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.field {
+  flex: 1;
+}
+
+.quantity {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b0c9bb;
+  width: 100%;
+}
+
+.unit-select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b0c9bb;
+  width: 100%;
+}
+
+.button {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #b0c9bb;
+  margin-top: 40%;
+  padding-top: 12px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+  color: #4a5a52;
+}
+
+.nav-item.active {
+  color: darkgreen;
+  font-weight: bold;
+}
