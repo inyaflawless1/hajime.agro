@@ -3,8 +3,8 @@
 }
 
 .body {
-  background-color: #adf0d3;
-  color: #011f12;
+  background-color: rgb(7, 122, 41);  
+  color: #94dbbd;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   padding: 25px;
@@ -128,6 +128,7 @@
   border-top: 1px solid #b0c9bb;
   margin-top: 40%;
   padding-top: 12px;
+  
 }
 
 .nav-item {
@@ -135,10 +136,9 @@
   flex-direction: column;
   align-items: center;
   font-size: 11px;
-  color: #4a5a52;
+  color: #e3f1ea;
 }
 
 .nav-item.active {
-  color: darkgreen;
   font-weight: bold;
 }

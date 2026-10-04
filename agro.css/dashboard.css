@@ -1,20 +1,21 @@
 .profile {
    border-radius: 15px;
-background-color: rgb(148, 230, 230);
+background-color:rgb(4, 90, 23);
 align-items: center;
 width: 150px;
-margin: 10px;
+margin: 18px;
 display: flex;
 padding: 10px;
+margin-left: 0px;
 }
 .body{
-   background-color: #56e6aa; font-family: Arial, sans-serif;
+   background-color: rgb(4, 90, 23); font-family: Arial, sans-serif;
 }
 .search-container {
 padding: 5px 15px; 
     width: 600px;
     place-items: center;
-     border: 1px solid #ccc;
+     border: transparent solid 1px  ;
       border-radius: 50px; 
     margin: 10px 0;
     margin-left: 50px;
@@ -49,7 +50,7 @@ padding: 5px 15px;
 }
 .sidebar {
     width: 200px;
-    background-color: #acf9ff;
+    background-color:  rgb(14, 138, 51);
     padding: 20px;
     box-sizing: border-box;
     min-height: 100hv;
@@ -233,7 +234,7 @@ height: 100%;
     grid-column: 1/-1;
 }
 .current{
-    background-color: #2ecc71;
+    background-color:  rgb(19, 150, 58);;
     padding: 15px;
     margin-top: 0%;
 }

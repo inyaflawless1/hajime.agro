@@ -1,9 +1,9 @@
 .body{
-  background-color: rgb(159, 241, 214);
+  background-color:  rgb(59, 136, 82);
 
 }
 .sub{
-  background-color: #88e6bd;
+  background-color: #03882f;
   padding: 15px;
   width: 300px;
   margin-left: 5px;
@@ -36,12 +36,12 @@
     display: flex;
 }
   .phone-frame {
-    color: rgb(8, 95, 8);
+    color: rgb(198, 236, 198);
     padding: 20px;
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
-    background-color: rgb(159, 241, 214);
+    background-color:  rgb(7, 122, 41);
     min-height: 100vh;
     box-sizing: border-box;
 }
@@ -58,7 +58,8 @@ border-radius: 50px;
 border-radius: 5px;
 }
 .est{
-  background-color: rgb(112, 221, 221);
+  background-color:  rgb(186, 235, 201);
+
   border-radius: 10px;
   display: flex;
   margin: 0 auto 15px;
